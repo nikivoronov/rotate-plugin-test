@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "nodemon express.mjs",
     "start": "node express.mjs"
-  }  
+  },  
   "dependencies": {
     "@google-cloud/functions-framework": "^3.3.0",
     "@google-cloud/pubsub": "^4.0.2",
