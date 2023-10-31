@@ -5,7 +5,7 @@ import plugin from './src/plugin.mjs';
 
 // TODO: would be SICK if there was a "rerun last request" button. Not hard to implement
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 app.use(express.json());
 
